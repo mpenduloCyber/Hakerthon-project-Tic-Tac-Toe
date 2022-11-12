@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet"
+        type="text/css" href="tictactoe.css">
+   
+    <script src="tictactoe.js"></script>
+</head>
+   
+<body>
+    <div id="main">
+        <h1><b>Tic-</b><i>tac</i><b>-Toe </b></h1>
+   
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+
+        <table style="margin-left: 45%; margin-bottom: 100px; margin-top: 50px;">
+            <tr>
+                <td style="color: darkgrey; font-size:large;">Player mode</td>
+                <td><select name="plMode" id="plMode" onclick="">
+                    <option value="Players">Players</option>
+                    <option value="Computer">Computer</option>
+                  </select>
+                  </td>
+            </tr>
+        </table>
+ 
+  
+        
+   
+        <div class="Row">
+            
+                <input type="text" id="heartOne" onclick="myfunc_3(); myfunc();playerOrComputer(); " >
+                <input type="text" id="heartTwo" onclick="myfunc_4(); myfunc();playerOrComputer();" >
+   
+                <input type="text" id="heartThree" onclick="myfunc_5(); myfunc();playerOrComputer();" >
+            
+        </div>
+   
+        <div class="Row">
+                <input type="text" id="heartFour" onclick="myfunc_6(); myfunc();playerOrComputer();" >
+               
+                <input type="text" id="heartFive" onclick="myfunc_7(); myfunc();playerOrComputer();" >
+   
+                <input type="text" id="heartSix" onclick="myfunc_8(); myfunc();playerOrComputer();" >
+            
+        </div>
+   
+        <div class="Row">
+                <input type="text" id="heartSeven" onclick="myfunc_9(); myfunc();playerOrComputer();" >
+   
+                <input type="text" id="heartEight" onclick="myfunc_10(); myfunc();playerOrComputer();" >
+   
+                <input type="text" id="heartNine" onclick="myfunc_11(); myfunc();playerOrComputer();" >
+   
+        </div>
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+   
+        <br><br>
+        <p id="print"></p>
+ 
+  
+   
+   
+    </div>
+</body>
+   
+</html>
